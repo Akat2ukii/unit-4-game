@@ -1,0 +1,79 @@
+body {
+    background-image: url("../images/background.jpg")
+}
+h1{
+    font-size: 60px;
+    color:red;
+    text-align: center;
+    margin-bottom:100px;
+    font-weight: bold;
+}
+#rules {
+    line-height: 1.6;
+    color:green;
+    text-align: center;
+    background-color:black;
+    margin: 0px 400px 0px 400px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 40px;
+    color:green;
+    font-weight: bold;
+}
+#diamond {
+    background:url(images/diamond.png) no-repeat;
+    cursor:pointer;
+    width: 300px;
+    height: 250px;
+    border: none;
+    margin-right:19%;
+    float:right;
+}
+#ruby {
+    background:url(images/ruby.png) no-repeat;
+    cursor:pointer;
+    width: 300px;
+    height: 250px;
+    border: none;
+    float:right;
+}
+#emerald {
+    background:url(images/emerald.png) no-repeat;
+    cursor:pointer;
+    width: 300px;
+    height: 250px;
+    border: none;
+    float:right;
+}
+#sapphire {
+    background:url(images/sapphire.png) no-repeat;
+    cursor:pointer;
+    width: 300px;
+    height: 250px;
+    border: none;
+    float:right;
+}
+#random-num{
+    color:blue;
+    background-color:white;
+    text-align: center;
+    margin-right:900px;
+    margin-left:900px;
+}
+#results {
+    color:blue;
+    background-color:white;
+    text-align: center;
+    margin-right:900px;
+    margin-left:900px;
+}
+#totalscore{
+    text-align: center;
+    color:white;
+}
+#derp{
+    clear: both;
+    text-align: center;
+    color:white;
+}

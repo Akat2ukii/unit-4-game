@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Crystal Game</title>
+        <link rel="stylesheet" href="assets/reset.css">
+        <link rel="stylesheet" href="assets/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="assets/game.js"></script>
+    </head>
+    <body>
+        <h1>
+            Crystals Collector!
+        </h1>
+
+        <section id="rules">
+            <h2>Rules!</h2>
+
+            <p>
+                You will be given a random number at the start of the game.
+            </p>
+            <br>
+            <p>
+                There are four crystals below; by clicking on a crystal you will add a specific amount of points to your total score.
+            </p>
+            <br>
+            <p>
+                You win the game by matching your total score to the random number; you lose the game if your total score goes above the random number.
+            </p>
+            <br>
+            <p>
+                The value of the crystal is hidden until you click on it.
+            </p>
+            <br>
+            <p>
+                Each time the game starts the game will change the value of each crystal.
+            </p>
+
+        </section>
+
+        <div id="random-num">
+            0
+        </div>
+
+        <div id="results">
+            <p>Wins:</p> 
+            <p>Losses: </p>
+        </div>
+
+        <div id="images">
+            <INPUT id="diamond" class="gem" type="image" src="images/diamond.png" alt="diamond">
+            <INPUT id="emerald" class="gem" type="image" src="images/emerald.jpg" alt="emerald">
+            <INPUT id="ruby" class="gem" type="image" src="images/ruby.jpg" alt="ruby">
+            <INPUT id="sapphire" class="gem" type="image" src="images/sapphire.jpg" alt="sapphire">
+        </div>
+        <div>
+            <p id="derp">Your total score is: </p>
+        </div>
+        <div id="totalscore">
+            0
+        </div>
+
+            
+
+
+
+
+
+
+
+
+    </body>
+
+
+
+
+
+
+</html>
